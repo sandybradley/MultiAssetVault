@@ -220,5 +220,5 @@ abstract contract MultiAssetVault is ERC6909 {
      * @notice Fallback function to handle ETH deposits.
      * @dev This function allows the contract to accept ETH deposits
      */
-    receive() external payable { }
+    receive() external payable {}
 }
